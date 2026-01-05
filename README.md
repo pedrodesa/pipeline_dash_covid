@@ -1,13 +1,13 @@
 # Pipeline de dados do e-SUS Notifica para o painel de síndrome gripal pela covid-19
----
+
 Pipeline de dados com processo de ETL deenvolvido para alimentar o painel de síndrome gripal pela covid-19 do Ministério da Saúde.
 
 ## Sobre o projeto
----
+
 Este projeto foi desenvolvido para realizar o tratamento de dados, com aplicação de regras de negócio, para consumo pelo dashboard epidemiológico da vigilância da síndrome gripal pela covid-19.
 
 ### Objetivos
----
+
 * Gerar faixas etárias a partir da data de nascimento
 * Calcular semanas epidemiológicas
 * Aplicar regra para criação da variável "Caso novo"
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido para realizar o tratamento de dados, com aplicaç�
 * Criar variáveis para grupos de risco e populações específicas
 
 ## Tecnologias utilizadas
----
+
 <img src="./docs/img/R_logo.svg.png" alt="Logo R" width="200">
 
 **Programação**
@@ -28,7 +28,7 @@ Este projeto foi desenvolvido para realizar o tratamento de dados, com aplicaç�
 * Docker - Conteinerização do código fonte
 
 ## Estrutura do pipeline
----
+
 <img src="./docs/img/diagrama_pipeline.png" alt="Diagrama pipeline">
 
 ## Como utilizar o app
@@ -73,7 +73,7 @@ Rscript main.R
 
 ## Estrutura do Projeto
 ---
-<img src="./docs/img/project_tree.png" alt="Árvore do projeto">
+<img src="./docs/img/project_tree.png" alt="Árvore do projeto" width="500">
 
 ---
 
