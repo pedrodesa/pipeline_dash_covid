@@ -44,7 +44,7 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-#docs/
+docs/
 
 # translation temp files
 po/*~
@@ -57,10 +57,11 @@ rsconnect/
 /*_files/
 
 ### OTHER FILES
-#.env
-#config.yml
-#config/
+.env
+config.yml
+config/
 1-Acesso_CNIE_ACESSO_SHEREPOINT_Azure_Graph_Microsofot 1.r
 1-Acesso_Pedro_Sa_CNIE_ACESSO_SHEREPOINT_Azure_Graph_Microsofot.r
+episem.R
 
 # End of https://www.toptal.com/developers/gitignore/api/r
