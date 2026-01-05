@@ -1,4 +1,6 @@
+<center>
 # Pipeline de dados do e-SUS Notifica para o painel de síndrome gripal pela covid-19
+</center>
 
 Pipeline de dados com processo de ETL deenvolvido para alimentar o painel de síndrome gripal pela covid-19 do Ministério da Saúde.
 
@@ -72,9 +74,7 @@ Rscript main.R
 ```
 
 ## Estrutura do Projeto
----
-<img src="./docs/img/project_tree.png" alt="Árvore do projeto" width="500">
 
----
+<img src="./docs/img/project_tree.png" alt="Árvore do projeto" width="500">
 
 Desenvolvido por Pedro de Sá <85pedrosa@gmail.com>
