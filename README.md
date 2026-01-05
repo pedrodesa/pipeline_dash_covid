@@ -1,6 +1,4 @@
-<center>
 # Pipeline de dados do e-SUS Notifica para o painel de síndrome gripal pela covid-19
-</center>
 
 Pipeline de dados com processo de ETL deenvolvido para alimentar o painel de síndrome gripal pela covid-19 do Ministério da Saúde.
 
