@@ -17,8 +17,6 @@ Este projeto foi desenvolvido para realizar o tratamento de dados, com aplicaç�
 
 ## Tecnologias utilizadas
 
-<img src="./docs/img/R_logo.svg.png" alt="Logo R" width="200">
-
 **Programação**
 * R - Linguagem de programação estatística
 
