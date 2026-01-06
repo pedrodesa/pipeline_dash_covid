@@ -13,13 +13,16 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copiar apenas o script de instalação de pacotes
-COPY install_packages.R /app/install_packages.R
+COPY install_packages.R .
 
 # Instalar pacotes R
 RUN Rscript install_packages.R
+
+COPY run.sh .
+RUN chmod +x run.sh
 
 # Copiar o projeto
 COPY . .
 
 # Rodar a aplicação principal
-CMD ["Rscript", "main.R"]
+CMD ["./run.sh"]
